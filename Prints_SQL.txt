@@ -1,0 +1,16 @@
+-- Table: public.Prints
+
+-- DROP TABLE public."Prints";
+
+CREATE TABLE public."Prints"
+(
+    id integer NOT NULL DEFAULT nextval('"Prints_id_seq"'::regclass),
+    card_id integer,
+    index integer,
+    base64data character varying(10000000) COLLATE pg_catalog."default"
+)
+
+TABLESPACE pg_default;
+
+ALTER TABLE public."Prints"
+    OWNER to postgres;

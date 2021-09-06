@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="750.0" prefWidth="1025.0" stylesheets="@application.css" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.SampleController">
+   <children>
+      <Text layoutX="281.0" layoutY="79.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Ana Sayfa" textAlignment="CENTER" underline="true" wrappingWidth="525.0" AnchorPane.leftAnchor="250.0" AnchorPane.rightAnchor="250.0" AnchorPane.topAnchor="25.0">
+         <font>
+            <Font name="Bodoni MT Bold" size="50.0" />
+         </font>
+      </Text>
+      <Button id="recordsales" layoutX="914.0" layoutY="567.0" mnemonicParsing="false" onAction="#SwitchSceneToFingerTable" text="Parmak İzi" AnchorPane.bottomAnchor="100.0" AnchorPane.leftAnchor="800.0" AnchorPane.rightAnchor="50.0" />
+      <Button id="recordsales" layoutX="914.0" layoutY="625.0" mnemonicParsing="false" onAction="#SwitchSceneToLogin" text="Çıkış" AnchorPane.bottomAnchor="50.0" AnchorPane.leftAnchor="800.0" AnchorPane.rightAnchor="50.0" />
+      <Button id="recordsales" layoutX="914.0" layoutY="514.0" mnemonicParsing="false" onAction="#SwitchSceneDatabasePage" text="Veriler" AnchorPane.bottomAnchor="150.0" AnchorPane.leftAnchor="800.0" AnchorPane.rightAnchor="50.0" />
+      <Button id="recordsales" layoutX="800.0" layoutY="509.0" mnemonicParsing="false" onAction="#SwitchSceneCardsPage" text="Kartlar" AnchorPane.bottomAnchor="200.0" AnchorPane.leftAnchor="800.0" AnchorPane.rightAnchor="50.0" />
+      <Button id="recordsales" layoutX="800.0" layoutY="459.0" mnemonicParsing="false" onAction="#SwitchSceneFingerCardsPage" prefHeight="42.0" prefWidth="175.0" text="Fotoğraflı Kartlar" AnchorPane.bottomAnchor="250.0" />
+      <Button id="recordsales" layoutX="800.0" layoutY="406.0" mnemonicParsing="false" onAction="#SwitchSceneFilter" prefHeight="42.0" prefWidth="175.0" text="Filtreler" />
+   </children>
+</AnchorPane>

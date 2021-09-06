@@ -1,0 +1,18 @@
+-- Table: public.User
+
+-- DROP TABLE public."User";
+
+CREATE TABLE public."User"
+(
+    "ID" integer NOT NULL,
+    "Password" character varying COLLATE pg_catalog."default" NOT NULL,
+    "Name" character varying COLLATE pg_catalog."default" NOT NULL,
+    "Surname" character varying COLLATE pg_catalog."default" NOT NULL,
+    "Age" integer,
+    CONSTRAINT "User_pkey" PRIMARY KEY ("ID")
+)
+
+TABLESPACE pg_default;
+
+ALTER TABLE public."User"
+    OWNER to postgres;

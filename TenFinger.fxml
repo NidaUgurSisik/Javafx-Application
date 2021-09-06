@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane fx:id="anchoridTen" prefHeight="800.0" prefWidth="1278.0" stylesheets="@application.css" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.SampleController2">
+	<children>
+		<AnchorPane id="tendespane1" fx:id="tendespane1" layoutX="60.0" layoutY="77.0" prefHeight="500.0" prefWidth="500.0" AnchorPane.leftAnchor="100.0" AnchorPane.topAnchor="100.0" />
+		<AnchorPane id="tendespane2" fx:id="tendespane2" layoutX="60.0" layoutY="77.0" prefHeight="500.0" prefWidth="500.0" AnchorPane.leftAnchor="100.0" AnchorPane.topAnchor="100.0" />
+		<AnchorPane id="tendespane3" fx:id="tendespane3" layoutX="60.0" layoutY="77.0" prefHeight="500.0" prefWidth="500.0" AnchorPane.leftAnchor="100.0" AnchorPane.topAnchor="100.0" />
+		<AnchorPane id="tendespane4" fx:id="tendespane4" layoutX="60.0" layoutY="77.0" prefHeight="500.0" prefWidth="500.0" AnchorPane.leftAnchor="100.0" AnchorPane.topAnchor="100.0" />
+		<AnchorPane id="tendespane5" fx:id="tendespane5" layoutX="60.0" layoutY="77.0" prefHeight="500.0" prefWidth="500.0" AnchorPane.leftAnchor="100.0" AnchorPane.topAnchor="100.0" />
+		<AnchorPane id="tendespane6" fx:id="tendespane6" layoutX="60.0" layoutY="77.0" prefHeight="500.0" prefWidth="500.0" AnchorPane.leftAnchor="100.0" AnchorPane.topAnchor="100.0" />
+		<AnchorPane id="tendespane7" fx:id="tendespane7" layoutX="60.0" layoutY="77.0" prefHeight="500.0" prefWidth="500.0" AnchorPane.leftAnchor="100.0" AnchorPane.topAnchor="100.0" />
+		<AnchorPane id="tendespane8" fx:id="tendespane8" layoutX="60.0" layoutY="77.0" prefHeight="500.0" prefWidth="500.0" AnchorPane.leftAnchor="100.0" AnchorPane.topAnchor="100.0" />
+		<AnchorPane id="tendespane9" fx:id="tendespane9" layoutX="60.0" layoutY="77.0" prefHeight="500.0" prefWidth="500.0" AnchorPane.leftAnchor="100.0" AnchorPane.topAnchor="100.0" />
+		<AnchorPane id="tendespane10" fx:id="tendespane10" layoutX="60.0" layoutY="77.0" prefHeight="500.0" prefWidth="500.0" AnchorPane.leftAnchor="100.0" AnchorPane.topAnchor="100.0" />
+		<Button fx:id="Button1" layoutX="890.0" layoutY="317.0" mnemonicParsing="false" onAction="#selectButton" text="1" AnchorPane.rightAnchor="336.0" />
+		<Button fx:id="Button2" layoutX="965.0" layoutY="317.0" mnemonicParsing="false" onAction="#selectButton" text="2" AnchorPane.rightAnchor="261.0" />
+		<Button fx:id="Button3" layoutX="1040.0" layoutY="317.0" mnemonicParsing="false" onAction="#selectButton" text="3" AnchorPane.rightAnchor="186.0" />
+		<Button fx:id="Button4" layoutX="1115.0" layoutY="317.0" mnemonicParsing="false" onAction="#selectButton" text="4" AnchorPane.rightAnchor="111.0" />
+		<Button fx:id="Button5" layoutX="1190.0" layoutY="317.0" mnemonicParsing="false" onAction="#selectButton" text="5" AnchorPane.rightAnchor="36.0" />
+		<Button fx:id="Button10" layoutX="1216.0" layoutY="368.0" mnemonicParsing="false" onAction="#selectButton" text="10" AnchorPane.rightAnchor="32.0" />
+		<Button fx:id="Button9" layoutX="1141.0" layoutY="368.0" mnemonicParsing="false" onAction="#selectButton" text="9" AnchorPane.rightAnchor="111.0" />
+		<Button fx:id="Button8" layoutX="1066.0" layoutY="368.0" mnemonicParsing="false" onAction="#selectButton" text="8" AnchorPane.rightAnchor="186.0" />
+		<Button fx:id="Button7" layoutX="991.0" layoutY="368.0" mnemonicParsing="false" onAction="#selectButton" text="7" AnchorPane.rightAnchor="261.0" />
+		<Button fx:id="Button6" layoutX="916.0" layoutY="368.0" mnemonicParsing="false" onAction="#selectButton" text="6" AnchorPane.rightAnchor="336.0" />
+		<TextField layoutX="951.0" layoutY="37.0" prefHeight="25.0" prefWidth="302.0" AnchorPane.rightAnchor="34.0" />
+		<TextField layoutX="951.0" layoutY="75.0" prefHeight="25.0" prefWidth="302.0" AnchorPane.rightAnchor="34.0" />
+		<TextField layoutX="951.0" layoutY="113.0" prefHeight="25.0" prefWidth="302.0" AnchorPane.rightAnchor="34.0" />
+		<Slider id="recordsales" fx:id="SliderRotate" layoutX="100.0" layoutY="625.0" max="180.0" min="-180.0" onMouseDragged="#rotateImg" prefHeight="14.0" prefWidth="500.0" />
+      <Button id="recordsales" layoutX="100.0" layoutY="706.0" mnemonicParsing="false" onAction="#ShowImage" text="Kırpmayı Başlat" />
+      <Button id="recordsales" layoutX="261.0" layoutY="706.0" mnemonicParsing="false" onAction="#FinishCrop" text="Kırpmayı Bitir" />
+      <Button id="recordsales" layoutX="407.0" layoutY="706.0" mnemonicParsing="false" onAction="#PaneClickTenFinger" text="Edit" />
+      <Button id="recordsales" layoutX="919.0" layoutY="443.0" mnemonicParsing="false" onAction="#GetSaveButton" text="Save" AnchorPane.leftAnchor="919.0" />
+      <Button id="recordsales" layoutX="1136.0" layoutY="706.0" mnemonicParsing="false" onAction="#SwitchSceneMenu" text="Menüye Dön" />
+	</children>
+</AnchorPane>

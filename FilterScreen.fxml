@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="750.0" prefWidth="750.0" stylesheets="@application.css" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.ImageController">
+   <children>
+      <AnchorPane fx:id="Normal" layoutX="109.0" layoutY="44.0" prefHeight="438.0" prefWidth="533.0" />
+      <AnchorPane fx:id="Reverse" layoutX="109.0" layoutY="44.0" prefHeight="438.0" prefWidth="533.0" />
+      <AnchorPane fx:id="Emboss" layoutX="109.0" layoutY="44.0" prefHeight="438.0" prefWidth="533.0" />
+      <AnchorPane fx:id="Unsharpen" layoutX="109.0" layoutY="44.0" prefHeight="438.0" prefWidth="533.0" />
+      <Button id="recordsales" layoutX="109.0" layoutY="605.0" mnemonicParsing="false" onAction="#NormalImg" text="Normal" />
+      <Button id="recordsales" layoutX="551.0" layoutY="605.0" mnemonicParsing="false" onAction="#EmbossImg" prefHeight="31.0" prefWidth="91.0" text="Kabartma" />
+      <Button id="recordsales" layoutX="272.0" layoutY="605.0" mnemonicParsing="false" onAction="#ReverseImg" prefHeight="42.0" prefWidth="57.0" text="Ters" />
+      <Button id="recordsales" layoutX="348.0" layoutY="683.0" mnemonicParsing="false" onAction="#GetImage" text="Getir" />
+      <Button id="recordsales" layoutX="431.0" layoutY="605.0" mnemonicParsing="false" onAction="#UnsharpenImg" text="Açık" />
+      <Button id="recordsales" layoutX="581.0" layoutY="683.0" mnemonicParsing="false" onAction="#SwitchSceneMenu" text="Geri" />
+   </children>
+</AnchorPane>

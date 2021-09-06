@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="800.0" prefWidth="1278.0" stylesheets="@application.css" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.SampleController">
+   <children>
+      <TableView fx:id="UserTable" layoutX="40.0" layoutY="131.0" prefHeight="550.0" prefWidth="422.0" stylesheets="@../../../../../eclipse-workspace/AdminTest/src/application/application.css">
+        <columns>
+          <TableColumn fx:id="IDCol" prefWidth="78.0" text="ID" />
+            <TableColumn fx:id="Password" prefWidth="78.0" text="Şifre" />
+            <TableColumn fx:id="NameCol" prefWidth="78.0" text="İsim" />
+            <TableColumn fx:id="SurnameCol" prefWidth="78.0" text="Soyisim" />
+            <TableColumn fx:id="AgeCol" prefWidth="109.0" text="Yaş" />
+        </columns>
+      </TableView>
+      <Button id="recordsales" layoutX="565.0" layoutY="131.0" mnemonicParsing="false" onAction="#GetTable" prefHeight="25.0" prefWidth="186.0" stylesheets="@application.css" text="Yazdır" />
+      <Text layoutX="94.0" layoutY="56.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Veriler" textAlignment="CENTER" wrappingWidth="1063.13671875" AnchorPane.leftAnchor="125.0" AnchorPane.rightAnchor="125.0">
+         <font>
+            <Font name="Bodoni MT" size="50.0" />
+         </font>
+      </Text>
+      <Button id="recordsales" layoutX="565.0" layoutY="185.0" mnemonicParsing="false" onAction="#RemoveFromTable" prefHeight="25.0" prefWidth="186.0" stylesheets="@application.css" text="Sil" />
+      <Button id="recordsales" layoutX="565.0" layoutY="731.0" mnemonicParsing="false" onAction="#SwitchSceneToLogin" prefHeight="25.0" prefWidth="186.0" stylesheets="@application.css" text="Çıkış" />
+      <Button id="recordsales" layoutX="565.0" layoutY="675.0" mnemonicParsing="false" onAction="#SwitchSceneMenu" prefHeight="25.0" prefWidth="186.0" stylesheets="@application.css" text="Menüye Dön" wrapText="true" />
+      <Button id="recordsales" layoutX="565.0" layoutY="237.0" mnemonicParsing="false" onAction="#insertTable" prefHeight="25.0" prefWidth="186.0" stylesheets="@application.css" text="Ekle" />
+      <Button id="recordsales" layoutX="38.0" layoutY="702.0" mnemonicParsing="false" onAction="#GetImageFromTable" prefHeight="25.0" prefWidth="186.0" stylesheets="@application.css" text="Fotoğraf Getir" />
+      <TableView fx:id="UserTable1" layoutX="821.0" layoutY="131.0" prefHeight="550.0" prefWidth="422.0" stylesheets="@../../../../../eclipse-workspace/AdminTest/src/application/application.css">
+         <columns>
+            <TableColumn fx:id="IDCol1" prefWidth="78.0" text="ID" />
+            <TableColumn fx:id="Password1" prefWidth="78.0" text="Şifre" />
+            <TableColumn fx:id="NameCol1" prefWidth="78.0" text="İsim" />
+            <TableColumn fx:id="SurnameCol1" prefWidth="78.0" text="Soyisim" />
+            <TableColumn fx:id="AgeCol1" prefWidth="109.0" text="Yaş" />
+         </columns>
+      </TableView>
+      <AnchorPane fx:id="viewpane1" layoutX="31.0" layoutY="127.0" onMousePressed="#PaneClickData" prefHeight="200.0" prefWidth="200.0" />
+      <AnchorPane fx:id="viewpane2" layoutX="31.0" layoutY="327.0" onMousePressed="#PaneClickData" prefHeight="200.0" prefWidth="200.0" />
+      <Button id="recordsales" layoutX="256.0" layoutY="702.0" mnemonicParsing="false" onAction="#GetTableBack" prefHeight="25.0" prefWidth="186.0" stylesheets="@application.css" text="Tabloya Dön" />
+      <Button id="recordsales" layoutX="138.0" layoutY="752.0" mnemonicParsing="false" onAction="#deSelect" prefHeight="25.0" prefWidth="186.0" stylesheets="@application.css" text="Seçimi Sıfırla" />
+      <AnchorPane fx:id="viewpane4" layoutX="815.0" layoutY="327.0" onMousePressed="#PaneClickData" prefHeight="200.0" prefWidth="200.0" />
+      <AnchorPane fx:id="viewpane3" layoutX="815.0" layoutY="127.0" onMousePressed="#PaneClickData" prefHeight="200.0" prefWidth="200.0" />
+      <Button id="recordsales" layoutX="939.0" layoutY="756.0" mnemonicParsing="false" onAction="#deSelect2" prefHeight="25.0" prefWidth="186.0" stylesheets="@application.css" text="Seçimi Sıfırla" />
+      <Button id="recordsales" layoutX="1057.0" layoutY="706.0" mnemonicParsing="false" onAction="#GetTableBack2" prefHeight="25.0" prefWidth="186.0" stylesheets="@application.css" text="Tabloya Dön" />
+      <Button id="recordsales" layoutX="839.0" layoutY="706.0" mnemonicParsing="false" onAction="#GetImageFromTable2" prefHeight="25.0" prefWidth="186.0" stylesheets="@application.css" text="Fotoğraf Getir" />
+   </children>
+</AnchorPane>

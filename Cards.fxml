@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane onMouseEntered="#GetCardsTable" prefHeight="750.0" prefWidth="1025.0" stylesheets="@application.css" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.CardsController">
+   <children>
+      <TableView fx:id="CardsTable" layoutX="36.0" layoutY="118.0" prefHeight="600.0" prefWidth="509.0" AnchorPane.bottomAnchor="50.0" AnchorPane.leftAnchor="50.0">
+        <columns>
+          <TableColumn fx:id="IDColCards" prefWidth="95.0" text="ID" />
+          <TableColumn fx:id="CardIDCol" prefWidth="122.0" text="Card ID" />
+            <TableColumn fx:id="DescriptionCol" prefWidth="291.0" text="Description" />
+        </columns>
+      </TableView>
+      <Button id="recordsales" fx:id="addButton" layoutX="50.0" layoutY="30.0" mnemonicParsing="false" onAction="#addCard" prefHeight="42.0" prefWidth="125.0" text="Kart Ekle" />
+      <Button id="recordsales" layoutX="934.0" layoutY="675.0" mnemonicParsing="false" onAction="#SwitchSceneMenu" text="Geri Dön" AnchorPane.bottomAnchor="50.0" AnchorPane.rightAnchor="50.0" />
+      <Button id="recordsales" layoutX="742.0" layoutY="658.0" mnemonicParsing="false" onAction="#SwitchSceneToFingerTable" prefHeight="42.0" prefWidth="125.0" text="Fotoğraf Ekle" />
+   </children>
+</AnchorPane>

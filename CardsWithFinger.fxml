@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane onMouseEntered="#GetCardsTablewithFinger" prefHeight="750.0" prefWidth="1025.0" stylesheets="@application.css" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.CardsController">
+	<children>
+		<TableView fx:id="CardsTable" layoutX="36.0" layoutY="118.0" prefHeight="600.0" prefWidth="509.0" AnchorPane.bottomAnchor="50.0" AnchorPane.leftAnchor="50.0">
+			<columns>
+				<TableColumn fx:id="IDColCards" prefWidth="95.0" text="ID" />
+				<TableColumn fx:id="CardIDCol" prefWidth="122.0" text="Card ID" />
+				<TableColumn fx:id="DescriptionCol" prefWidth="291.0" text="Description" />
+			</columns>
+		</TableView>
+		<Button id="recordsales" layoutX="934.0" layoutY="675.0" mnemonicParsing="false" onAction="#SwitchSceneMenu" text="Geri Dön" AnchorPane.bottomAnchor="50.0" AnchorPane.rightAnchor="50.0" />
+		<AnchorPane fx:id="viewpane1" layoutX="611.0" layoutY="222.0" prefHeight="357.0" prefWidth="375.0" />
+		<AnchorPane fx:id="viewpane2" layoutX="611.0" layoutY="222.0" prefHeight="357.0" prefWidth="375.0" />
+		<AnchorPane fx:id="viewpane3" layoutX="611.0" layoutY="222.0" prefHeight="357.0" prefWidth="375.0" />
+		<AnchorPane fx:id="viewpane4" layoutX="611.0" layoutY="222.0" prefHeight="357.0" prefWidth="375.0" />
+		<AnchorPane fx:id="viewpane5" layoutX="611.0" layoutY="222.0" prefHeight="357.0" prefWidth="375.0" />
+		<AnchorPane fx:id="viewpane6" layoutX="611.0" layoutY="222.0" prefHeight="357.0" prefWidth="375.0" />
+		<AnchorPane fx:id="viewpane7" layoutX="611.0" layoutY="222.0" prefHeight="357.0" prefWidth="375.0" />
+		<AnchorPane fx:id="viewpane8" layoutX="611.0" layoutY="222.0" prefHeight="357.0" prefWidth="375.0" />
+		<AnchorPane fx:id="viewpane9" layoutX="611.0" layoutY="222.0" prefHeight="357.0" prefWidth="375.0" />
+		<AnchorPane fx:id="viewpane10" layoutX="611.0" layoutY="222.0" prefHeight="357.0" prefWidth="375.0" />
+      <Text fx:id="ImageIndex" layoutX="611.0" layoutY="604.0" strokeType="OUTSIDE" strokeWidth="0.0" wrappingWidth="92.13671875" />
+	</children>
+</AnchorPane>

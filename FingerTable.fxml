@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane id="anchorid" fx:id="anchorid" prefHeight="750.0" prefWidth="1025.0" stylesheets="@application.css" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.SampleController">
+   <children>
+      <BorderPane id="paneborder" fx:id="pane1" layoutX="9.0" layoutY="112.0" prefHeight="500.0" prefWidth="1000.0" stylesheets="@../../../../../eclipse-workspace/AdminTest/src/application/application.css" AnchorPane.bottomAnchor="138.0" AnchorPane.leftAnchor="9.0" AnchorPane.rightAnchor="9.0" AnchorPane.topAnchor="112.0" />
+      <Text layoutX="272.0" layoutY="111.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Fingerprint" textAlignment="CENTER" wrappingWidth="474.13671875" AnchorPane.topAnchor="10.0">
+         <font>
+            <Font size="50.0" />
+         </font>
+      </Text>
+      <Button id="recordsales" layoutX="899.0" layoutY="622.0" mnemonicParsing="false" onAction="#SwitchSceneToSend" prefHeight="100.0" prefWidth="100.0" text="Götür" AnchorPane.bottomAnchor="20.0" AnchorPane.rightAnchor="50.0" />
+      <Button id="recordsales" layoutX="765.0" layoutY="638.0" mnemonicParsing="false" onAction="#ShowImage" prefHeight="100.0" prefWidth="100.0" text="Getir" AnchorPane.bottomAnchor="20.0" AnchorPane.rightAnchor="160.0" />
+      <Button id="recordsales" layoutX="653.0" layoutY="630.0" mnemonicParsing="false" onAction="#SwitchSceneMenu" prefHeight="100.0" prefWidth="100.0" text="Menüye Dön" textAlignment="CENTER" wrapText="true" />
+      <Button id="recordsales" layoutX="539.0" layoutY="630.0" mnemonicParsing="false" onAction="#SwitchSceneToTenFinger" prefHeight="100.0" prefWidth="100.0" text="Götür" />
+   </children>
+</AnchorPane>

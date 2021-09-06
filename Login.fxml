@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity"
+	minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0"
+	prefWidth="400.0" xmlns="http://javafx.com/javafx/8"
+	xmlns:fx="http://javafx.com/fxml/1"
+	fx:controller="application.SampleController">
+	<children>
+		<Button fx:id="recordsales" layoutX="235.0" layoutY="240.0"
+			mnemonicParsing="false" onAction="#GetIDandPassword"
+			prefHeight="44.0" prefWidth="103.0" stylesheets="@application.css"
+			text="Giriş" textAlignment="CENTER" wrapText="true" />
+		<TextField fx:id="IDNumber" layoutX="88.0" layoutY="150.0"
+			prefHeight="25.0" prefWidth="250.0" />
+		<Label layoutX="27.0" layoutY="154.0" text="ID" />
+		<Label layoutX="27.0" layoutY="203.0" text="Şifre" />
+		<Button fx:id="recordsales" layoutX="235.0" layoutY="293.0"
+			mnemonicParsing="false" onAction="#SwitchSceneSignUp"
+			prefHeight="44.0" prefWidth="103.0" stylesheets="@application.css"
+			text="Kayıt ol" textAlignment="CENTER" wrapText="true" />
+		<PasswordField fx:id="PasswordLocation" layoutX="88.0"
+			layoutY="199.0" prefHeight="25.0" prefWidth="250.0" />
+		<Text fx:id="WrongPassword" layoutX="265.0" layoutY="373.0"
+			strokeType="OUTSIDE" strokeWidth="0.0" wrappingWidth="103.0" />
+		<Text layoutX="88.0" layoutY="31.0" strokeType="OUTSIDE"
+			strokeWidth="0.0" text="Giriş" textAlignment="CENTER"
+			wrappingWidth="203.13671875" AnchorPane.topAnchor="20.0">
+			<font>
+				<Font name="Bodoni MT" size="50.0" />
+			</font>
+		</Text>
+	</children>
+</AnchorPane>
